@@ -40,12 +40,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onInstructionsButtonPressed(View button){
-        Log.d(getClass().toString(),"Play button pressed");
+        Log.d(getClass().toString(),"Instructions button pressed");
         startActivity(intent2);
     }
 
     public void onOptionsButtonPressed(View button){
-        Log.d(getClass().toString(),"Play button pressed");
+        Log.d(getClass().toString(),"Options button pressed");
         startActivity(intent3);
     }
 }
