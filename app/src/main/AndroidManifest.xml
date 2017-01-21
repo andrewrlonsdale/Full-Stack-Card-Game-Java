@@ -15,6 +15,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".GameActivity"
+            android:label="Result"
+            android:parentActivityName=".MainActivity">
+        </activity>
+
+        <activity
+            android:name=".InstructionsActivity"
+            android:label="Result"
+            android:parentActivityName=".MainActivity">
+        </activity>
+
+        <activity
+            android:name=".OptionsActivity"
+            android:label="Result"
+            android:parentActivityName=".MainActivity">
+        </activity>
     </application>
 
 </manifest>
