@@ -26,8 +26,9 @@ public class MainActivity extends AppCompatActivity {
         instructionsButton= (Button)findViewById(R.id.button_instructions);
 
         intent = new Intent(MainActivity.this, GameActivity.class);
-        intent2 = new Intent(MainActivity.this, OptionsActivity.class);
-        intent3 = new Intent(MainActivity.this, InstructionsActivity.class);
+        intent2 = new Intent(MainActivity.this, InstructionsActivity.class);
+        intent3 = new Intent(MainActivity.this, OptionsActivity.class);
+
 
         Log.d(getClass().toString(), "on create called");
 

@@ -1,6 +1,22 @@
 <resources>
+
     <string name="app_name">BLACKJACK</string>
     <string name="play">Play Game</string>
     <string name="instructions">Instructions</string>
     <string name="options">Options</string>
+    <string name="instructionstext1">
+        Blackjack is played with a standard 52 card decks, with each
+        denomination assigned a point value.
+    </string>
+    <string name="instructionstext2">The cards 2 through 10 are worth their face value.
+    </string>
+    <string name="instructionstext3">
+        Kings, queens, and jacks are each worth 10, and aces may be used
+        as either 1 or 11.
+    </string>
+    <string name="instructionstext4">
+        The object for the player is to draw cards totaling closer
+        to 21, without going over, than the dealers cards.
+    </string>
+
 </resources>
