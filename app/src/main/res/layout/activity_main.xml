@@ -5,9 +5,17 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/color_green"
     tools:context="example.codeclan.com.blackjack.MainActivity">
 
-
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:src="@drawable/game_of_blackjack_large"
+        android:adjustViewBounds="true"
+        />
 
 
     <Button
