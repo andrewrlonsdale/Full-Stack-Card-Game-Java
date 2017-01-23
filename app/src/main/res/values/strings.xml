@@ -20,8 +20,14 @@
     </string>
     <string name="say_options">Options</string>
     <string name="colour">Change Colour</string>
-    <string name="green">Green</string>
-    <string name="red">Red</string>
+
     <string name="blue">Blue</string>
 
+    <string name="green">green</string>
+
+    <string name="red">Red</string>
+
+    <string name="pick">Pick Your Colour</string>
+
+    <string name="agree">I agree to the terms and conditions</string>
 </resources>
