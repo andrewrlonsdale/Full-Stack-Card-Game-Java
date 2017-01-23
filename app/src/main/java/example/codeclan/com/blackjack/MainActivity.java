@@ -1,4 +1,4 @@
-package example.codeclan.com.blackjack.Activity;
+package example.codeclan.com.blackjack;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;

@@ -8,7 +8,8 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activity.MainActivity">
+
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,21 +18,21 @@
         </activity>
 
         <activity
-            android:name=".Activity.GameActivity"
-            android:label="Result"
-            android:parentActivityName=".Activity.MainActivity">
+            android:name=".GameActivity"
+            android:label="@string/title_activity_game"
+            android:theme="@style/AppTheme.NoActionBar">
         </activity>
 
         <activity
-            android:name=".Activity.InstructionsActivity"
-            android:label="Result"
-            android:parentActivityName=".Activity.MainActivity">
+            android:name=".InstructionsActivity"
+            android:label="Instructions"
+            android:parentActivityName=".MainActivity">
         </activity>
 
         <activity
-            android:name=".Activity.OptionsActivity"
-            android:label="Result"
-            android:parentActivityName=".Activity.MainActivity">
+            android:name=".OptionsActivity"
+            android:label="Options"
+            android:parentActivityName=".MainActivity">
         </activity>
     </application>
 

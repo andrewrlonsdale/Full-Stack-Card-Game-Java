@@ -1,6 +1,7 @@
-package example.codeclan.com.blackjack.adaptor;
+package example.codeclan.com.blackjack.adapter;
 
 import android.graphics.Rect;
+import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
 /**

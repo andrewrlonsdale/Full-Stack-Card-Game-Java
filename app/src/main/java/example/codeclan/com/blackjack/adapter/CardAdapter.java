@@ -1,11 +1,16 @@
-package example.codeclan.com.blackjack.adaptor;
+package example.codeclan.com.blackjack.adapter;
 
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import example.codeclan.com.blackjack.R;
+import example.codeclan.com.blackjack.model.Card;
+import example.codeclan.com.blackjack.model.Hand;
+import example.codeclan.com.blackjack.model.Suit;
 /**
  * Created by user on 23/01/2017.
  */
