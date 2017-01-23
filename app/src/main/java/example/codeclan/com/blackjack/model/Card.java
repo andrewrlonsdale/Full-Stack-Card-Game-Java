@@ -28,7 +28,7 @@ public class Card {
         return isVisible;
     }
 
-    public void showCard() {
-        this.isVisible = true;
-    }
+//    public void showCard() {
+//        this.isVisible = true;
+//    }
 }
