@@ -9,6 +9,9 @@ public class Dealer extends User {
     public Dealer(Hand hand) {
         super(hand);
     }
+    public boolean shouldDrawCard() {
+        return getHand().getScore() <= 16;
+    }
 
 
 
