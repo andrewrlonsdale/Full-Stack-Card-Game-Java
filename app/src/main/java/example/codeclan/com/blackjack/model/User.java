@@ -19,6 +19,7 @@ public abstract class User {
 
     public void setHand(Hand hand) {
         this.hand = hand;
+
     }
 
 }

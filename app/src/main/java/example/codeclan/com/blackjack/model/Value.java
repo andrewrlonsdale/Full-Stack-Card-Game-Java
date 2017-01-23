@@ -29,6 +29,18 @@ public enum Value {
         this.points = points;
     }
 
+    public int getValue() {
+        return value;
+    }
 
+    public String getName() {
+        return name;
+    }
+
+    public int getPoints() {
+        return points;
+    }
 }
+
+
 
