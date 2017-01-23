@@ -16,7 +16,31 @@ public class Hand {
 
     public Hand(List<Card> cards) {
         this.cards = cards;
-
+    }
+    public List<Card> getCards() {
+        return cards;
     }
 
+    public int getScore() {
+        return sum;
+    }
+
+    public boolean isBlackjackHand() {
+        return sum == LIMIT;
+    }
+
+    public boolean isBusted() {
+        return sum > LIMIT;
+    }
+
+    public void addCard(Card card) {
+        cards.add(card);
+    }
+
+
+
+    public void reset() {
+        this.cards = new ArrayList<>();
+        this.sum = 0;
+    }
 }
