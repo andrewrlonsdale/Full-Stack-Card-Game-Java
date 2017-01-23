@@ -19,5 +19,9 @@
         to 21, without going over, than the dealers cards.
     </string>
     <string name="say_options">Options</string>
+    <string name="colour">Change Colour</string>
+    <string name="green">Green</string>
+    <string name="red">Red</string>
+    <string name="blue">Blue</string>
 
 </resources>
