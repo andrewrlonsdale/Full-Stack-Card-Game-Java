@@ -1,4 +1,4 @@
-package example.codeclan.com.blackjack;
+package example.codeclan.com.blackjack.Activity;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -9,6 +9,8 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+
+import example.codeclan.com.blackjack.R;
 
 
 public class MainActivity extends AppCompatActivity {

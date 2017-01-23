@@ -1,4 +1,5 @@
-package example.codeclan.com.blackjack;
+package example.codeclan.com.blackjack.Activity;
+
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,24 +9,27 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
+import example.codeclan.com.blackjack.R;
+
 /**
  * Created by user on 21/01/2017.
  */
-public class InstructionsActivity extends AppCompatActivity {
+public class GameActivity extends AppCompatActivity {
 
     Intent intent3;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_instructions);
+        setContentView(R.layout.activity_game);
 
-        intent3 = new Intent(InstructionsActivity.this, OptionsActivity.class);
+        intent3 = new Intent(GameActivity.this, OptionsActivity.class);
+
 
         Log.d(getClass().toString(), "on create called");
 
     }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

@@ -1,9 +1,7 @@
-package example.codeclan.com.blackjack;
+package example.codeclan.com.blackjack.Activity;
 
 
-import android.content.Context;
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -11,8 +9,9 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 import android.widget.RadioButton;
+
+import example.codeclan.com.blackjack.R;
 
 import static example.codeclan.com.blackjack.R.color.color_blue;
 import static example.codeclan.com.blackjack.R.color.color_green;
