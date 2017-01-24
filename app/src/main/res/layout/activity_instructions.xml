@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="top"
-        android:src="@drawable/howtpblackjack"
+        android:src="@drawable/howtoblackjack"
         android:adjustViewBounds="true"
         />
 

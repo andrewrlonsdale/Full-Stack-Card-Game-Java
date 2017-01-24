@@ -8,8 +8,6 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-import example.codeclan.com.blackjack.R;
-
 /**
  * Created by user on 21/01/2017.
  */
@@ -23,7 +21,7 @@ public class InstructionsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_instructions);
 
-        intent3 = new Intent(InstructionsActivity.this, OptionsActivity.class);
+        intent3 = new Intent(InstructionsActivity.this, InstructionsActivity.class);
 
         Log.d(getClass().toString(), "on create called");
 
