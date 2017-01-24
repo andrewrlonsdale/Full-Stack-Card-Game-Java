@@ -48,6 +48,14 @@ public class OptionsActivity extends AppCompatActivity implements View.OnClickLi
         deck3 = (RadioButton)findViewById(R.id.radioButton6);
 
         vibrateButton.setOnClickListener(this);
+        green.setOnClickListener(this);
+        red.setOnClickListener(this);
+        blue.setOnClickListener(this);
+        deck3.setOnClickListener(this);
+        deck2.setOnClickListener(this);
+        deck1.setOnClickListener(this);
+
+
 
         intent3 = new Intent(OptionsActivity.this, OptionsActivity.class);
 
@@ -111,6 +119,7 @@ public class OptionsActivity extends AppCompatActivity implements View.OnClickLi
         switch (v.getId()) {
             case    R.id.vibrate:
                 vibrator.vibrate(1000);
+                break;
         }
     }
 
