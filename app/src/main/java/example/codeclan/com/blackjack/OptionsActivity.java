@@ -23,9 +23,7 @@ import static example.codeclan.com.blackjack.R.color.color_red;
 public class OptionsActivity extends AppCompatActivity {
 
     Intent intent3;
-    RadioButton green;
-    RadioButton red;
-    RadioButton blue;
+    RadioButton green, red, blue, deck1, deck2, deck3;
 
 
     @Override
@@ -36,6 +34,9 @@ public class OptionsActivity extends AppCompatActivity {
         green = (RadioButton)findViewById(R.id.radioButton1);
         red = (RadioButton)findViewById(R.id.radioButton2);
         blue = (RadioButton)findViewById(R.id.radioButton3);
+        deck1 = (RadioButton)findViewById(R.id.radioButton4);
+        deck2 = (RadioButton)findViewById(R.id.radioButton5);
+        deck3 = (RadioButton)findViewById(R.id.radioButton6);
 
         intent3 = new Intent(OptionsActivity.this, OptionsActivity.class);
 
@@ -73,4 +74,21 @@ public class OptionsActivity extends AppCompatActivity {
         Log.d("PersistenceExample:", "blue Button Clicked!");
         getResources().getColor(color_blue);
     }
+
+    public void onDeck1ButtonClick(View view) {
+        Log.d("PersistenceExample:", "blue Button Clicked!");
+        getResources().getColor(color_blue);
+    }
+
+    public void onDeck2ButtonClick(View view) {
+        Log.d("PersistenceExample:", "blue Button Clicked!");
+        getResources().getColor(color_blue);
+    }
+
+    public void onDeck3ButtonClick(View view) {
+        Log.d("PersistenceExample:", "blue Button Clicked!");
+        getResources().getColor(color_blue);
+    }
+
+
 }

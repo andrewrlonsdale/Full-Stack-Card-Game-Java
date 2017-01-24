@@ -74,4 +74,81 @@
         />
     </RadioGroup>
 
+
+    <TextView
+        android:textColor="@color/textColorDark"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/deck"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:weightSum="3" >
+
+    <ImageView
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:src="@drawable/back_image"/>
+
+    <ImageView
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:src="@drawable/back_image1"/>
+
+    <ImageView
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:src="@drawable/back_image2"/>
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/RadioGroup02"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_column="0"
+        android:layout_span="3"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <RadioButton
+            android:text="@string/deck1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton4"
+            android:onClick="onDeck1ButtonClick"
+            android:checked="true" />
+
+
+        <RadioButton
+            android:text="@string/deck2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton5"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:onClick="onDeck2ButtonClick"
+            />
+
+        <RadioButton
+            android:text="@string/deck3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton6"
+            android:onClick="onDeck3ButtonClick"
+            />
+    </RadioGroup>
+
+
 </LinearLayout>

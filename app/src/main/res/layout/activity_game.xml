@@ -117,7 +117,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/hit"
-                android:layout_marginRight="8dp"
                 android:layout_marginLeft="20dp"
                 android:enabled="false"
                 android:id="@+id/btn_hit" />
@@ -126,6 +125,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/stand"
+                android:layout_marginLeft="20dp"
                 android:enabled="false"
                 android:id="@+id/btn_stand" />
 
@@ -133,6 +133,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/btn_deal"
+                android:layout_marginLeft="20dp"
                 android:text="@string/deal" />
 
 

@@ -39,4 +39,8 @@
     <string name="game_over">Game over!</string>
     <string name="hit">Hit</string>
     <string name="stand">Stand</string>
+    <string name="deck">Change Deck</string>
+    <string name="deck1">Deck 1</string>
+    <string name="deck2">Deck 2</string>
+    <string name="deck3">Deck3</string>
 </resources>
