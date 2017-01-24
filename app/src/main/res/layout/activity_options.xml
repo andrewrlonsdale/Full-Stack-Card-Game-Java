@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/color_green"
-    >
+    android:weightSum="1">
 
     <TextView
         android:textColor="@color/textColorDark"
@@ -152,12 +152,14 @@
 
     <Button
         android:text="@string/vibrate"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="129dp"
+        android:layout_height="41dp"
         android:id="@+id/vibrate"
         android:layout_marginTop="20dp"
         android:layout_gravity="center_horizontal"
-        />
+        android:background="@drawable/card1"
+
+        android:layout_weight="0.03" />
 
 
 </LinearLayout>

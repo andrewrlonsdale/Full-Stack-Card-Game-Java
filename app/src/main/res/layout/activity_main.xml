@@ -5,47 +5,46 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/color_green"
+    android:background="@drawable/game_of_blackjack_large"
     tools:context="example.codeclan.com.blackjack.MainActivity">
 
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="top"
-        android:src="@drawable/game_of_blackjack_large"
-        android:adjustViewBounds="true"
-        />
+
 
 
     <Button
         android:text="@string/play"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="129dp"
+        android:layout_height="50dp"
         android:id="@+id/button_play"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="320sp"
         android:layout_gravity="center_horizontal"
         android:onClick="onPlayButtonPressed"
+        android:background="@drawable/card1"
+
         />
 
     <Button
         android:text="@string/instructions"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="129dp"
+        android:layout_height="50dp"
         android:id="@+id/button_instructions"
         android:layout_marginTop="25dp"
         android:layout_gravity="center_horizontal"
         android:onClick="onInstructionsButtonPressed"
+        android:background="@drawable/card3"
+
         />
 
     <Button
         android:text="@string/options"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="129dp"
+        android:layout_height="50dp"
         android:id="@+id/button_options"
         android:layout_marginTop="25dp"
         android:layout_gravity="center_horizontal"
         android:onClick="onOptionsButtonPressed"
+        android:background="@drawable/card1"
+
         />
 
 </LinearLayout>

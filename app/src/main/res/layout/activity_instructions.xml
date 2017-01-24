@@ -17,7 +17,7 @@
 
     <TextView
         android:id="@+id/instructions1"
-        android:textColor="@color/textColorDark"
+        android:textColor="@color/textColorLight"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
@@ -29,7 +29,7 @@
         />
     <TextView
         android:id="@+id/instructions2"
-        android:textColor="@color/textColorDark"
+        android:textColor="@color/textColorLight"
         android:layout_marginTop="2dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
@@ -40,7 +40,7 @@
         />
     <TextView
         android:id="@+id/instructions3"
-        android:textColor="@color/textColorDark"
+        android:textColor="@color/textColorLight"
         android:layout_marginTop="2dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
@@ -52,7 +52,7 @@
         />
     <TextView
         android:id="@+id/instructions4"
-        android:textColor="@color/textColorDark"
+        android:textColor="@color/textColorLight"
         android:layout_marginTop="2dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"

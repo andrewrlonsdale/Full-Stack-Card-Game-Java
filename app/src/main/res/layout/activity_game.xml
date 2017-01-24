@@ -125,26 +125,33 @@
             android:layout_above="@+id/layout_betting_buttons">
 
             <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="100sp"
+                android:layout_height="50sp"
                 android:text="@string/hit"
-                android:layout_marginLeft="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+
                 android:enabled="false"
+                android:background="@drawable/card1"
                 android:id="@+id/btn_hit" />
 
             <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="100sp"
+                android:layout_height="50sp"
                 android:text="@string/stand"
-                android:layout_marginLeft="20dp"
+                android:layout_marginLeft="10dp"
                 android:enabled="false"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/card3"
                 android:id="@+id/btn_stand" />
 
             <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="100sp"
+                android:layout_height="50sp"
                 android:id="@+id/btn_deal"
-                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/card2"
                 android:text="@string/deal" />
 
 
