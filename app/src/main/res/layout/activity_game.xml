@@ -34,7 +34,7 @@
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
-        android:background="@drawable/background"
+        android:background="@color/game"
         android:layout_marginTop="?attr/actionBarSize"
         tools:showIn="@layout/activity_game">
 

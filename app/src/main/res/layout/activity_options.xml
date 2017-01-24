@@ -8,7 +8,7 @@
     android:weightSum="1">
 
     <TextView
-        android:textColor="@color/textColorDark"
+        android:textColor="@color/textColorLight"
         android:layout_marginTop="50dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
@@ -20,7 +20,7 @@
         />
 
     <TextView
-        android:textColor="@color/textColorDark"
+        android:textColor="@color/textColorLight"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
@@ -41,6 +41,7 @@
         android:layout_span="3"
         android:orientation="horizontal"
         android:layout_gravity="center_horizontal"
+        android:textColor="@color/textColorLight"
         >
 
     <RadioButton
@@ -50,11 +51,13 @@
         android:id="@+id/radioButton1"
         android:layout_marginTop="25dp"
         android:onClick="onGreenButtonClick"
-        android:checked="true" />
+        android:textColor="@color/textColorLight"
+        android:checked="true"/>
 
 
     <RadioButton
         android:text="@string/red"
+        android:textColor="@color/textColorLight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/radioButton2"
@@ -66,6 +69,7 @@
 
     <RadioButton
         android:text="@string/blue"
+        android:textColor="@color/textColorLight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/radioButton3"
@@ -76,7 +80,7 @@
 
 
     <TextView
-        android:textColor="@color/textColorDark"
+        android:textColor="@color/textColorLight"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
@@ -126,6 +130,7 @@
             android:text="@string/deck1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/textColorLight"
             android:id="@+id/radioButton4"
             android:onClick="onDeck1ButtonClick"
             android:checked="true" />
@@ -135,6 +140,7 @@
             android:text="@string/deck2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/textColorLight"
             android:id="@+id/radioButton5"
             android:layout_marginLeft="25dp"
             android:layout_marginRight="25dp"
@@ -145,6 +151,7 @@
             android:text="@string/deck3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/textColorLight"
             android:id="@+id/radioButton6"
             android:onClick="onDeck3ButtonClick"
             />

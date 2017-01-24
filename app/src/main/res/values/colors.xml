@@ -4,11 +4,13 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorPrimaryLight">#ff4000</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="color_green">#0c4311</color>
+    <color name="color_green">#58763a</color>
     <color name="color_red">#a90207</color>
     <color name="color_blue">#1650ff</color>
     <color name="textColorLight">#ffffff</color>
     <color name="textColorDark">#000000</color>
     <color name="backgroundColorLight">#077337</color>
     <color name="backgroundColorDark">#014010</color>
+    <color name="game">#659940</color>
+    <color name="instructions">#2F511E</color>
 </resources>
