@@ -27,9 +27,9 @@
     <string name="red">Red</string>
 
     <string name="title_activity_game">Blackjack</string>
-    <string name="you_busted">You busted!</string>
+    <string name="you_busted">You busted! Dealer won!</string>
     <string name="you_got_blackjack">You got blackjack!</string>
-    <string name="dealer_busted">Dealer busted!</string>
+    <string name="dealer_busted">Dealer busted! You won!</string>
     <string name="draw">Draw!</string>
     <string name="you_won">You won!</string>
     <string name="dealer_won">Dealer won!</string>

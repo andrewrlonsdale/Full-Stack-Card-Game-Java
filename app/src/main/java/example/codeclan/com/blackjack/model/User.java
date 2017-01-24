@@ -19,7 +19,7 @@ public abstract class User {
 
     public void setHand(Hand hand) {
         this.hand = hand;
-
+        hand.getCards().get(0).showCard();
     }
 
     public boolean hasBlackjack() {
