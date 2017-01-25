@@ -1,4 +1,7 @@
-package example.codeclan.com.blackjack.model;
+package example.codeclan.com.blackjack.Abstract;
+
+import example.codeclan.com.blackjack.model.Card;
+import example.codeclan.com.blackjack.model.Hand;
 
 /**
  * Created by user on 23/01/2017.

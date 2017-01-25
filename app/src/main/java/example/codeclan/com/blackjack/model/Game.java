@@ -1,5 +1,8 @@
 package example.codeclan.com.blackjack.model;
 
+import example.codeclan.com.blackjack.Abstract.Dealer;
+import example.codeclan.com.blackjack.Abstract.Player;
+
 /**
  * Created by user on 21/01/2017.
  */
