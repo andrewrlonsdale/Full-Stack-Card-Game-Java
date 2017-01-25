@@ -7,6 +7,9 @@
     android:background="@color/color_green"
     android:weightSum="1">
 
+
+    <!--not written code yet for changing colour or deck-->
+
     <TextView
         android:textColor="@color/textColorLight"
         android:layout_marginTop="50dp"

@@ -5,7 +5,6 @@ import org.junit.Test;
 
 import static example.codeclan.com.blackjack.model.Suit.HEARTS;
 import static example.codeclan.com.blackjack.model.Value.ACE;
-import static org.junit.Assert.*;
 import static org.junit.Assert.assertEquals;
 
 /**
@@ -22,7 +21,7 @@ public class CardTest {
             card = new Card(HEARTS,ACE);
         }
 
-    
+
     @Test
     public void getSuit() throws Exception {
         assertEquals(HEARTS, card.getSuit());
@@ -35,8 +34,6 @@ public class CardTest {
 
     @Test
     public void isVisible() throws Exception {
-        assertEquals(false, card.isVisible());
+        assertEquals(ACE, card.getValue());
     }
-
-
 }

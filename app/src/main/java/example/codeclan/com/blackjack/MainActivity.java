@@ -12,7 +12,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
-import example.codeclan.com.blackjack.R;
 
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener  {
