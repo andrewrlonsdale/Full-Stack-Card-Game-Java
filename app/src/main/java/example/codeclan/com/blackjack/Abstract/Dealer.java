@@ -1,6 +1,5 @@
 package example.codeclan.com.blackjack.Abstract;
 
-import example.codeclan.com.blackjack.Abstract.User;
 import example.codeclan.com.blackjack.model.Hand;
 
 /**
