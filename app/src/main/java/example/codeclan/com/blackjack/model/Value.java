@@ -17,11 +17,11 @@ public enum Value {
     TEN(10, "10", 10),
     JACK(11, "J", 10),
     QUEEN(12, "Q", 10),
-    KING(13, "K", 10);
+    KING(13, "K", 10), ;
 
-    private int value;
-    private String name;
-    private int points;
+    public int value;
+    public String name;
+    public int points;
 
     Value(int value, String name, int points) {
         this.value = value;
